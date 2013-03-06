@@ -12,8 +12,21 @@ public class Somatorio {
 	}
 	
 	public double somaTotal(double[] valores) {
-		
+				
+				
 		double resultado = 0.0;
+		
+		if (valores == null){
+			resultado = Double.NaN;
+		}else{
+			for (int a = 0; a < valores.length; a++){
+				
+				resultado = resultado + valores[a];
+				
+			}
+		}
+		
+		
 		
 		//Implementar
 		

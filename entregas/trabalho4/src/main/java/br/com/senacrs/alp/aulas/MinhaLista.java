@@ -12,12 +12,12 @@ public class MinhaLista<T> implements Lista<T> {
 	}
 
 	@Override
-	public void adicionarInicio(T valor) {
+	 public void adicionarInicio(T valor) {
 
 		adicionarPosicao(0, valor);
 
 	}
-
+	
 	@Override
 	public void adicionarPosicao(int posicao, T valor) {
 

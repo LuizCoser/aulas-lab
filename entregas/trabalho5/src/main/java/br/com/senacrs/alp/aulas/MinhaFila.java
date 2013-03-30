@@ -9,7 +9,7 @@ public class MinhaFila<T> extends MinhaLista<T> implements Fila<T> {
 	}
 
 	public T obter() {
-		return lista.obterPosicao(0);
+		 return lista.obterPosicao(0);
 	}
 
 	public T remocao() {
